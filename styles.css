@@ -1,0 +1,309 @@
+
+
+body {
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Inter";
+	font-weight: bold;
+	color: hsl(230, 17%, 14%);
+}
+
+h1{
+	font-size: 3.2rem;
+	margin-bottom: 0;
+}
+
+h3{
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+p {
+	color: hsl(228, 12%, 44%);
+	font-family: "Roboto";
+	margin-bottom: 0;
+}
+
+.growth{
+	color: hsl(163, 72%, 41%);
+}
+
+.decline{
+	color: hsl(356, 69%, 56%);
+}
+
+
+.matter{
+	position: relative;
+	bottom: 7.75rem;
+}
+
+/*Dashboard*/
+
+
+#dashboard{	
+	padding: 2% 15% 11% 15%;
+	background-color: hsl(225, 100%, 98%);
+}
+
+.form-check-input{
+	background-color: #AEB3CB;
+
+}
+
+.form-check-input:checked{
+	background-color: #3EDA82;
+}
+
+.form-switch{
+	padding-left: 0;
+}
+
+.social{
+	margin-bottom: 0;
+}
+
+.button-container{
+	position: relative;
+}
+
+.button{
+	position: absolute;
+	right: 20px;
+	top: 30%;
+	}
+
+.button-label{
+	position: absolute;
+	right: 60px;
+	top: 30%;
+}
+
+.col-lg-6{
+	padding-top: 12px;
+	padding-bottom: 15px;  /* change*/
+}
+
+
+/*REACH*/
+
+#reach{
+	text-align: center;
+	padding: 0 15% 3% 15%;
+}
+
+.reach-text{
+	padding: 10% 0 10%;
+}
+
+.card-bg-color{
+	background-color: hsl(227, 47%, 96%);
+}
+
+.col-pos{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.fb{
+	color: #4267B2;
+}
+
+.fb-cont{
+	height: 4px;
+	width: 100%;
+	background-color: #4267B2;
+}
+
+.twitter{
+	color: #1DA1F2;
+}
+
+.twitter-cont{
+	height: 4px;
+	width: 100%;
+	background-color: #1DA1F2;
+}
+
+.insta{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.insta-cont{
+	height: 4px;
+	width: 100%;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.tube{
+	color: #FF0000;
+}
+
+.tube-cont{
+	height: 4px;
+	width: 100%;
+	background-color: #FF0000;
+}
+
+
+
+/*  Overview  */
+
+
+#overview{
+	padding: 0 15% 0 15%;
+}
+
+.overview-head{
+	font-size: 2rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+
+.col-2-pos{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.overview-view{
+	position: relative;
+	top: 1rem;
+	left: 10%;
+}
+
+.overview-icon{
+	position: absolute;
+	top: 1.3rem;
+	right: 10%;
+}
+
+.overview-main{
+	position: relative;
+	top: 1.7rem;
+	left: 10%;
+	font-size: 2rem;
+}
+
+.overview-rate{
+	position: absolute;
+	top: 4rem;
+	right: 10%;
+}
+
+.overview-card{
+	padding-bottom: 2.2rem;
+}
+
+
+
+/*  Attribution  */
+
+
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+	padding-bottom: 6%;
+	}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+ /* Phone  */
+
+
+@media (max-width: 1150px) {
+
+	.matter{
+		position: relative;
+		bottom: 6rem;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+
+	.button-label{
+		position: relative;
+		left: 0;
+		
+	}
+
+	.matter{
+		position: relative;
+		bottom: 3rem;
+	}
+
+}
+
+
+@media (max-width: 550px) {
+
+	.matter{
+		position: relative;
+		bottom: 2.5rem;
+	}
+
+	#dashboard{
+		padding-bottom: 15%;   /* Change*/
+	}
+
+}
+
+@media (max-width: 390px){
+
+	.button-text{
+		text-align: left;
+	}
+
+	#dashboard{
+		padding-bottom: 20%;   /* Change*/
+	}
+
+	.matter{
+		position: relative;   /* Change*/
+		bottom: 2.5rem;
+	}
+
+}
+
+
+
+
+/*-----Dark-----*/
+
+
+.dark{
+	background-color: hsl(230, 17%, 14%);
+}
+
+.dark .card-bg-color{
+	background-color: hsl(228, 28%, 20%);
+}
+
+.dark #dashboard{
+	background-color: hsl(232, 19%, 15%);
+}
+
+.dark h1{
+	color: #fff;
+}
+
+.dark h3{
+	color: #fff;
+}
+
+.dark p{
+	color: hsl(228, 34%, 66%);
+}
+
+.dark .attribution{
+	color: hsl(228, 34%, 66%);
+}

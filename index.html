@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+      <title>Frontend Mentor | Social Media Dashboard (with theme switcher)</title>
+
+      
+      <!-- Bootstrap files -->
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <!-- CSS files -->
+
+      <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+      <!-- Google fonts files -->
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+
+      <!-- Font Awesome -->
+
+      <script src="https://kit.fontawesome.com/f1040d403a.js" crossorigin="anonymous"></script>
+
+  </head>
+
+
+  <body >
+
+      <div id="dashboard">
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <h3 class="social">Social Media Dashboard</h3>
+            <p class="main-follower">Total Followers: 23,004</p>
+
+          </div>
+
+          <div class="col-lg-6 button-container">
+            
+
+            <div class="form-check form-switch">
+                <input class="form-check-input button" type="checkbox" id="flexSwitchCheckDefault">
+                <label class="form-check-label button-label" for="flexSwitchCheckDefault"><p class="button-text">Dark Mode</p></label>
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+
+
+      <div class="matter container-fluid">
+
+      <!--   Reach   -->
+
+
+      <div id="reach">
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 col-pos">
+          <div class="card card-bg-color">
+              <div class="fb-follower">
+
+                <div class="fb-cont"></div>
+                <p class="reach-text"><i class="fab fa-facebook-square fb"></i> @nathanf</p>
+                <h1>1987</h1>
+                <p>Followers</p> 
+                <p class="growth reach-text"><i class="fas fa-caret-up"></i> 12 Today</p>
+
+              </div>
+          </div>
+          </div>
+        
+        
+          <div class="col-lg-3 col-md-6 col-pos">
+          <div class="card card-bg-color">
+              <div class="twitter-follower">
+            
+                <div class="twitter-cont"></div>
+                <p class="reach-text"><i class="fab fa-twitter twitter"></i> @nathanf</p>
+                <h1>1044</h1> 
+                <p>Followers</p> 
+                <p class="growth reach-text"><i class="fas fa-caret-up"></i> 99 Today</p> 
+
+              </div>
+          </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-pos">
+          <div class="card card-bg-color">
+              <div class="insta-follower">
+          
+                <div class="insta-cont"></div>
+                <p class="reach-text"><i class="fab fa-instagram insta"></i> @realnathanf</p> 
+                <h1>11k</h1> 
+                <p>Followers</p> 
+                <p class="growth reach-text"><i class="fas fa-caret-up"></i> 1099 Today</p>
+
+              </div>
+          </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-pos">
+          <div class="card card-bg-color">
+              <div class="u-tube-follower">
+            
+                <div class="tube-cont"></div>
+                <p class="reach-text"><i class="fab fa-youtube-square tube"></i> Nathan F.</p> 
+                <h1>8239</h1> 
+                <p>Subscribers</p> 
+                <p class="decline reach-text"><i class="fas fa-caret-down"></i> 144 Today</p>  
+
+              </div>
+          </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+
+
+
+      <!--   Overview   -->
+
+
+      <div id="overview">
+
+
+        
+
+        <p class="overview-head">Overview - Today</p>
+
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Page Views</p> 
+              <i class="fab fa-facebook-square fb overview-icon"></i>
+              <h3 class="overview-main">87</h3>
+              <p class="overview-rate growth"><i class="fas fa-caret-up"></i> 3%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Likes</p> 
+              <i class="fab fa-facebook-square fb overview-icon"></i>
+              <h3 class="overview-main">52</h3>
+              <p class="overview-rate decline"><i class="fas fa-caret-down"></i> 2%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Likes</p> 
+              <i class="fab fa-instagram insta overview-icon"></i>
+              <h3 class="overview-main">5462</h3>
+              <p class="overview-rate growth"><i class="fas fa-caret-up"></i> 2257%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Profile Views</p>
+              <i class="fab fa-instagram insta overview-icon"></i>
+              <h3 class="overview-main">52k</h3>
+              <p class="overview-rate growth"><i class="fas fa-caret-up"></i> 1375%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Retweets</p>
+              <i class="fab fa-twitter twitter overview-icon"></i>
+              <h3 class="overview-main">117</h3>
+              <p class="overview-rate growth"><i class="fas fa-caret-up"></i> 303%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Likes</p> 
+              <i class="fab fa-twitter twitter overview-icon"></i>
+              <h3 class="overview-main">507</h3>
+              <p class="overview-rate growth"><i class="fas fa-caret-up"></i> 553%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Likes</p> 
+              <i class="fab fa-youtube-square tube overview-icon"></i>
+              <h3 class="overview-main">107</h3>
+              <p class="overview-rate decline"><i class="fas fa-caret-down"></i> 19%</p>
+
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-2-pos">
+          <div class="card card-bg-color overview-card">
+
+              <p class="overview-view">Total Views</p> 
+              <i class="fab fa-youtube-square tube overview-icon"></i>
+              <h3 class="overview-main">1407</h3>
+              <p class="overview-rate decline"><i class="fas fa-caret-down"></i> 12%</p>
+
+          </div>
+          </div>
+
+        </div>  
+
+      </div>
+  
+
+
+  
+</div>
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Utkarsh Kushwaha</a>.
+  </div>
+
+
+
+<!--  JavaScript Files   -->
+
+<script type="text/javascript" src="index.js"></script>
+
+
+
+</body>
+</html>
